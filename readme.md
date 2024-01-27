@@ -2,7 +2,7 @@
 
 This project focuses on detecting fake news within articles using a variety of supervised machine learning models, including Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and Transformers.
 
-::: {.table*}
+::: {.table}
                                     **accuracy**   **precision**   **recall**   **f1**
   --------------------------------- -------------- --------------- ------------ ---------
   **PassiveAggressiveClassifier**   0.99465        0.99466         0.99465      0.99466
