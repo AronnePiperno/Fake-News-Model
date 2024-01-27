@@ -3,24 +3,7 @@
 This project focuses on detecting fake news within articles using a variety of supervised machine learning models, including Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and Transformers.
 
 The project explors the effectiveness of different models across diverse datasets: Kaggle, WELFake and Liar.
-$$
-\begin{table*}[ht]
-\centering
-\begin{tabular}{@{}l|l|l|l|l|@{}}
-\multicolumn{1}{c|}{}                & \textbf{accuracy} & \textbf{precision} & \textbf{recall} & \textbf{f1} \\ \midrule
-\rowcolor[HTML]{32CB00} 
-\textbf{PassiveAggressiveClassifier} & 0.99465           & 0.99466            & 0.99465         & 0.99466    \\ \midrule
-\textbf{LogisticRegression}     & 0.98664 & 0.98664 & 0.98663 & 0.98664 \\ \midrule
-\textbf{MultinomialNB}          & 0.93964 & 0.93966 & 0.93964 & 0.93965 \\ \midrule
-\rowcolor[HTML]{FD6864} 
-\textbf{KNeighborsClassifier}   & 0.65612 & 0.77365 & 0.65612 & 0.71006 \\ \midrule
-\textbf{RandomForestClassifier} & 0.99042 & 0.99042 & 0.99042 & 0.99042 \\ \midrule
-\rowcolor[HTML]{32CB00} 
-\textbf{LinearSVC}              & 0.99465 & 0.99466 & 0.99465 & 0.99465 \\ \bottomrule
-\end{tabular}
-\caption{Kaggle dataset results}
-\label{tab:kaggle_results}
-\end{table*}
+$$\begin{table*}[ht] \centering \begin{tabular}{@{}l|l|l|l|l|@{}} \multicolumn{1}{c|}{}                & \textbf{accuracy} & \textbf{precision} & \textbf{recall} & \textbf{f1} \\ \midrule \rowcolor[HTML]{32CB00} \textbf{PassiveAggressiveClassifier} & 0.99465           & 0.99466            & 0.99465         & 0.99466    \\ \midrule \textbf{LogisticRegression}     & 0.98664 & 0.98664 & 0.98663 & 0.98664 \\ \midrule \textbf{MultinomialNB}          & 0.93964 & 0.93966 & 0.93964 & 0.93965 \\ \midrule \rowcolor[HTML]{FD6864}  \textbf{KNeighborsClassifier}   & 0.65612 & 0.77365 & 0.65612 & 0.71006 \\ \midrule \textbf{RandomForestClassifier} & 0.99042 & 0.99042 & 0.99042 & 0.99042 \\ \midrule \rowcolor[HTML]{32CB00}  \textbf{LinearSVC}              & 0.99465 & 0.99466 & 0.99465 & 0.99465 \\ \bottomrule \end{tabular} \caption{Kaggle dataset results} \label{tab:kaggle_results} \end{table*} $$
 
 
 \begin{table*}[ht]
