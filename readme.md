@@ -3,7 +3,7 @@
 This project focuses on detecting fake news within articles using a variety of supervised machine learning models, including Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and Transformers.
 
 The project explors the effectiveness of different models across diverse datasets: Kaggle, WELFake and Liar.
-
+$$
 \begin{table*}[ht]
 \centering
 \begin{tabular}{@{}l|l|l|l|l|@{}}
@@ -23,10 +23,6 @@ The project explors the effectiveness of different models across diverse dataset
 \end{table*}
 
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
 \begin{table*}[ht]
 \centering
 \begin{tabular}{@{}l|l|l|l|l|@{}}
@@ -47,10 +43,7 @@ The project explors the effectiveness of different models across diverse dataset
 \label{tab:WELFake_results}
 \end{table*}
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+
 \begin{table*}[ht]
 \centering
 \begin{tabular}{@{}l|l|l|l|l|@{}}
@@ -72,10 +65,7 @@ The project explors the effectiveness of different models across diverse dataset
 \end{table*}
  
  
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+
 \begin{table*}[]
 \begin{tabular}{@{}l|l|l|l|l|@{}}
                                      & \textbf{accuracy} & \textbf{precision} & \textbf{recall} & \textbf{f1} \\ \midrule
@@ -111,3 +101,4 @@ The project explors the effectiveness of different models across diverse dataset
 \caption{Binary LIAR dataset}
 \label{tab:binary_LIAR}
 \end{table*}
+$$
