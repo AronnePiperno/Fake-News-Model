@@ -2,6 +2,9 @@
 
 This project focuses on detecting fake news within articles using a variety of supervised machine learning models, including Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and Transformers.
 
+
+**KAGGLE dataset results:**
+
 <div class="table*">
 <table>
 <thead>
@@ -59,6 +62,8 @@ This project focuses on detecting fake news within articles using a variety of s
 </tbody>
 </table>
 </div>
+
+**WELFake dataset results:**
 <div class="table*">
 <table>
 <thead>
@@ -137,6 +142,8 @@ This project focuses on detecting fake news within articles using a variety of s
 </tbody>
 </table>
 </div>
+
+**LIAR dataset results:**
 <div class="table*">
 <table>
 <thead>
@@ -215,6 +222,8 @@ This project focuses on detecting fake news within articles using a variety of s
 </tbody>
 </table>
 </div>
+
+**LIAR dataset with party and speaker results:**
 <div class="table*">
 <table>
 <thead>
@@ -272,6 +281,8 @@ This project focuses on detecting fake news within articles using a variety of s
 </tbody>
 </table>
 </div>
+
+**Binary LIAR dataset results:**
 <div class="table*">
 <table>
 <thead>
