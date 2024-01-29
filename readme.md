@@ -9,7 +9,7 @@ This project focuses on detecting fake news within articles using a variety of s
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;"></th>
+<th style="text-align: left;"></th>
 <th style="text-align: left;"><strong>accuracy</strong></th>
 <th style="text-align: left;"><strong>precision</strong></th>
 <th style="text-align: left;"><strong>recall</strong></th>
@@ -19,45 +19,45 @@ This project focuses on detecting fake news within articles using a variety of s
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>PassiveAggressiveClassifier</strong></td>
-<td style="text-align: left;">0.99465</td>
-<td style="text-align: left;">0.99466</td>
-<td style="text-align: left;">0.99465</td>
-<td style="text-align: left;">0.99466</td>
+<td style="text-align: left;">0.99443</td>
+<td style="text-align: left;">0.99532</td>
+<td style="text-align: left;">0.993</td>
+<td style="text-align: left;">0.99416</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LogisticRegression</strong></td>
 <td style="text-align: left;">0.98664</td>
-<td style="text-align: left;">0.98664</td>
-<td style="text-align: left;">0.98663</td>
-<td style="text-align: left;">0.98664</td>
+<td style="text-align: left;">0.98646</td>
+<td style="text-align: left;">0.98554</td>
+<td style="text-align: left;">0.986</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>MultinomialNB</strong></td>
 <td style="text-align: left;">0.93964</td>
-<td style="text-align: left;">0.93966</td>
-<td style="text-align: left;">0.93964</td>
-<td style="text-align: left;">0.93965</td>
+<td style="text-align: left;">0.94112</td>
+<td style="text-align: left;">0.9319</td>
+<td style="text-align: left;">0.93649</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>KNeighborsClassifier</strong></td>
 <td style="text-align: left;">0.65612</td>
-<td style="text-align: left;">0.77365</td>
-<td style="text-align: left;">0.65612</td>
-<td style="text-align: left;">0.71006</td>
+<td style="text-align: left;">0.95872</td>
+<td style="text-align: left;">0.29244</td>
+<td style="text-align: left;">0.44818</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>RandomForestClassifier</strong></td>
-<td style="text-align: left;">0.99042</td>
-<td style="text-align: left;">0.99042</td>
-<td style="text-align: left;">0.99042</td>
-<td style="text-align: left;">0.99042</td>
+<td style="text-align: left;">0.9902</td>
+<td style="text-align: left;">0.98883</td>
+<td style="text-align: left;">0.99067</td>
+<td style="text-align: left;">0.98975</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LinearSVC</strong></td>
 <td style="text-align: left;">0.99465</td>
-<td style="text-align: left;">0.99466</td>
-<td style="text-align: left;">0.99465</td>
-<td style="text-align: left;">0.99465</td>
+<td style="text-align: left;">0.99579</td>
+<td style="text-align: left;">0.993</td>
+<td style="text-align: left;">0.9944</td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ This project focuses on detecting fake news within articles using a variety of s
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: center;"></th>
+<th style="text-align: left;"></th>
 <th style="text-align: left;"><strong>accuracy</strong></th>
 <th style="text-align: left;"><strong>precision</strong></th>
 <th style="text-align: left;"><strong>recall</strong></th>
@@ -78,45 +78,45 @@ This project focuses on detecting fake news within articles using a variety of s
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>PassiveAggressiveClassifier</strong></td>
-<td style="text-align: left;">0.95881</td>
-<td style="text-align: left;">0.95888</td>
-<td style="text-align: left;">0.95881</td>
-<td style="text-align: left;">0.95884</td>
+<td style="text-align: left;">0.95992</td>
+<td style="text-align: left;">0.95307</td>
+<td style="text-align: left;">0.96892</td>
+<td style="text-align: left;">0.96093</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LogisticRegression</strong></td>
 <td style="text-align: left;">0.94397</td>
-<td style="text-align: left;">0.94435</td>
-<td style="text-align: left;">0.94397</td>
-<td style="text-align: left;">0.94416</td>
+<td style="text-align: left;">0.93197</td>
+<td style="text-align: left;">0.95992</td>
+<td style="text-align: left;">0.94574</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>MultinomialNB</strong></td>
 <td style="text-align: left;">0.86907</td>
-<td style="text-align: left;">0.86907</td>
-<td style="text-align: left;">0.86907</td>
-<td style="text-align: left;">0.86907</td>
+<td style="text-align: left;">0.87051</td>
+<td style="text-align: left;">0.87241</td>
+<td style="text-align: left;">0.87146</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>KNeighborsClassifier</strong></td>
-<td style="text-align: left;">0.63009</td>
-<td style="text-align: left;">0.75046</td>
-<td style="text-align: left;">0.63009</td>
-<td style="text-align: left;">0.68503</td>
+<td style="text-align: left;">0.6301</td>
+<td style="text-align: left;">0.58095</td>
+<td style="text-align: left;">0.97928</td>
+<td style="text-align: left;">0.72927</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>RandomForestClassifier</strong></td>
-<td style="text-align: left;">0.93606</td>
-<td style="text-align: left;">0.93647</td>
-<td style="text-align: left;">0.93606</td>
-<td style="text-align: left;">0.93626</td>
+<td style="text-align: left;">0.93329</td>
+<td style="text-align: left;">0.91945</td>
+<td style="text-align: left;">0.95229</td>
+<td style="text-align: left;">0.93558</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LinearSVC</strong></td>
 <td style="text-align: left;">0.96117</td>
-<td style="text-align: left;">0.96139</td>
-<td style="text-align: left;">0.96117</td>
-<td style="text-align: left;">0.96128</td>
+<td style="text-align: left;">0.95173</td>
+<td style="text-align: left;">0.97301</td>
+<td style="text-align: left;">0.96225</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>RNN</strong></td>
@@ -297,45 +297,73 @@ This project focuses on detecting fake news within articles using a variety of s
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>PassiveAggressiveClassifier</strong></td>
-<td style="text-align: left;">0.42620</td>
-<td style="text-align: left;">0.43374</td>
-<td style="text-align: left;">0.42620</td>
-<td style="text-align: left;">0.42994</td>
+<td style="text-align: left;">0.56196</td>
+<td style="text-align: left;">0.60935</td>
+<td style="text-align: left;">0.62045</td>
+<td style="text-align: left;">0.61485</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LogisticRegression</strong></td>
-<td style="text-align: left;">0.49171</td>
-<td style="text-align: left;">0.45551</td>
-<td style="text-align: left;">0.49171</td>
-<td style="text-align: left;">0.47292</td>
+<td style="text-align: left;">0.61563</td>
+<td style="text-align: left;">0.63182</td>
+<td style="text-align: left;">0.76190</td>
+<td style="text-align: left;">0.69079</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>MultinomialNB</strong></td>
-<td style="text-align: left;">0.51934</td>
-<td style="text-align: left;">0.47999</td>
-<td style="text-align: left;">0.51934</td>
-<td style="text-align: left;">0.49889</td>
+<td style="text-align: left;">0.60142</td>
+<td style="text-align: left;">0.60336</td>
+<td style="text-align: left;">0.85434</td>
+<td style="text-align: left;">0.70725</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>KNeighborsClassifier</strong></td>
-<td style="text-align: left;">0.48698</td>
-<td style="text-align: left;">0.46546</td>
-<td style="text-align: left;">0.48698</td>
-<td style="text-align: left;">0.47597</td>
+<td style="text-align: left;">0.57064</td>
+<td style="text-align: left;">0.60732</td>
+<td style="text-align: left;">0.67367</td>
+<td style="text-align: left;">0.63878</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>RandomForestClassifier</strong></td>
-<td style="text-align: left;">0.50355</td>
-<td style="text-align: left;">0.46729</td>
-<td style="text-align: left;">0.50355</td>
-<td style="text-align: left;">0.48475</td>
+<td style="text-align: left;">0.60852</td>
+<td style="text-align: left;">0.62415</td>
+<td style="text-align: left;">0.76751</td>
+<td style="text-align: left;">0.68844</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>LinearSVC</strong></td>
-<td style="text-align: left;">0.45856</td>
-<td style="text-align: left;">0.44265</td>
-<td style="text-align: left;">0.45856</td>
-<td style="text-align: left;">0.45047</td>
+<td style="text-align: left;">0.60221</td>
+<td style="text-align: left;">0.63636</td>
+<td style="text-align: left;">0.68627</td>
+<td style="text-align: left;">0.66038</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>RNN</strong></td>
+<td style="text-align: left;">0.58626</td>
+<td style="text-align: left;">0.56522</td>
+<td style="text-align: left;">0.07052</td>
+<td style="text-align: left;">0.12540</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>CNN</strong></td>
+<td style="text-align: left;">0.52904</td>
+<td style="text-align: left;">1.0</td>
+<td style="text-align: left;">0.00181</td>
+<td style="text-align: left;">0.00361</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Transformer</strong></td>
+<td style="text-align: left;">0.56380</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+<td style="text-align: left;">0.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Transformer-Pretrained</strong></td>
+<td style="text-align: left;">0.50185</td>
+<td style="text-align: left;">0.37963</td>
+<td style="text-align: left;">0.22242</td>
+<td style="text-align: left;">0.28050</td>
 </tr>
 </tbody>
 </table>
