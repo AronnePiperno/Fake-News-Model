@@ -1,7 +1,9 @@
-**Fake News Detection Models**
+# **Fake News Detection Models**
 
 This project focuses on detecting fake news within articles using a variety of supervised machine learning models, including Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and Transformers.
 
+
+## Results
 
 **KAGGLE dataset results:**
 
